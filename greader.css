@@ -1,0 +1,78 @@
+@import "../css/tt-rss.css";
+@import "../css/cdm.css";
+@import "../css/prefs.css";
+
+/*
+
+GReader Theme for Tiny Tiny RRS
+
+Version 1.0
+2013-06-25
+www.bergercity.de
+
+*/
+
+
+body#ttrssMain, body#ttrssPrefs, body#ttrssLogin, body {
+    font-family: arial, sans-serif;
+    font-size: 13px;
+}
+
+body#ttrssMain #feedTree {
+    font-family: arial, sans-serif;
+}
+
+div.cdm.expanded {
+    border: 1px solid #DDDDDD;
+    box-shadow: 0 0 4px #E3E5EB;
+    margin: 10px 0 20px;
+    margin-left: 10px;
+    margin-right: 10px;
+}
+
+div.cdm.expanded > hr {
+    display: none;
+}
+
+div.cdmFooter {
+    background-color: #FAFAFA;
+    border-top: 1px solid #EBEBEB;
+}
+
+div.cdmFooter  a {
+    color: #444444;
+}
+
+div.cdm.expanded.Selected {
+    border-left-color: #4D90F0;
+}
+
+div.cdm.expanded.active div.cdmHeader a.title {
+    color: #1155CC;
+}
+
+div.cdm.expanded div.cdmHeader a.title {
+    font-size: 18px;
+}
+
+#feeds-holder {
+    background-color: #FFF;
+    border: 0;
+}
+
+#content-wrap {
+    border-color: #EEEEEE;
+}
+
+#headlines-frame {
+    box-shadow: none;
+}
+
+div#headlines-toolbar {
+    border-bottom: 1px solid #EBEBEB;
+}
+
+.claro .dijitToolbar {
+    background-color: #F1F1F1;
+    border-bottom: 0;
+}
